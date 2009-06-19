@@ -1,0 +1,17 @@
+.deps/
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+contour
+contour.o
+depcomp
+hist
+hist.o
+install-sh
+missing
+plotutils-extra-0.0.tar.gz
+
