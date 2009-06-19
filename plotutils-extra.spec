@@ -1,14 +1,14 @@
-Name:			plotutils-hist
+Name:			plotutils-extra
 Version:		0.0
 Release:		1%{?dist}
-Summary: 		Histograms!
+Summary: 		Extra preprocessors for plotutils
 License:		UNKOWN
 Group:     Applications/Productivity
 Source:			%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
-hist is to make histograms!
+hist is to make histograms. Contour is to make contour plots.
 
 %prep
 %setup -q
@@ -27,3 +27,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %{_bindir}/hist
+%{_bindir}/contour

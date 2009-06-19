@@ -1,4 +1,4 @@
-AC_INIT([plotutils-hist], [0.0], [sg@indiana.edu])
+AC_INIT([plotutils-extra], [0.0], [sg@indiana.edu])
 AC_CONFIG_SRCDIR([Makefile.am])
 
 AM_INIT_AUTOMAKE([tar-ustar foreign])
